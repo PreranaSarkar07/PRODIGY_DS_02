@@ -1,35 +1,32 @@
-PRODIGY_DS_02
-Task 2: Data Cleaning and Exploratory Data Analysis
-In this task, I performed data cleaning and exploratory data analysis (EDA) on the Titanic dataset provided by Prodigy Infotech.
+# Task 2 - Exploratory Data Analysis on Titanic Dataset
 
-📌 Steps I Followed
-Data Loading
+This project is part of my internship with **Prodigy Infotech** under the **Data Science Track**.
 
-Imported the dataset (train.csv) into Google Colab using Pandas.
-Data Inspection
+## 📌 Objective
+Perform data cleaning and exploratory data analysis (EDA) on a dataset to identify patterns, trends, and relationships between variables.
 
-Checked dataset shape, data types, missing values, and basic statistics using .info(), .describe(), and .isnull().sum().
-Data Cleaning
+## 🧠 Dataset
+- **Dataset Used**: Titanic Dataset  
+- Provided by Prodigy Infotech
 
-Filled missing values in Age with median.
-Filled missing values in Embarked with mode.
-Dropped the Cabin column due to high percentage of missing values.
-Removed duplicate rows.
-Exploratory Data Analysis (EDA)
+## 🔍 What I Did
+- Loaded the dataset and understood its structure
+- Handled missing values and cleaned the data
+- Performed Exploratory Data Analysis (EDA)
+- Visualized important patterns (e.g., survival rate by gender/class/age)
+- Identified correlations between features
 
-Visualized Survival distribution.
-Analyzed survival rates by gender and passenger class.
-Plotted Age and Fare distributions.
-Created a correlation heatmap for numeric features.
-📊 Key Findings
-Females had a much higher survival rate than males.
-1st class passengers had the highest survival rates.
-Younger passengers (children) had better chances of survival compared to seniors.
-Fare also showed a positive correlation with survival.
-🛠 Tools Used
-Python
-Pandas
-Matplotlib
-Seaborn
-📸 Example Visualizations
-(Add screenshots of your main plots here)
+## 📈 Key Insights
+- Females had a higher survival rate than males
+- Passengers in higher classes had better chances of survival
+- Children and younger passengers had higher survival rates
+
+## 🛠️ Tools Used
+- Python
+- Pandas, Matplotlib, Seaborn
+- Google Colab
+
+---
+
+✅ **Task Completed Successfully!**
+
